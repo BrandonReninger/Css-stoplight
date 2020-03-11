@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.post {
+    display: flex;
+    width: 50px;
+    height: 75px;
+    background-color: gray;
+}
+
+.rectangle {
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 400px;
+    background-color: #555555;
+    transform: rotate(90deg);
+}
+
+.light-container {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    height: 250px;
+    background-color: gray;
+    transform: rotate(90deg);
+}
+
+.red-light {
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.yellow-light {
+    display: flex;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.green-light {
+    display: flex;
+    background-color: green;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.green:hover {
+    box-shadow:
+}
